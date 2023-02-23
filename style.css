@@ -1,0 +1,41 @@
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 408px;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+    bottom: 10px;
+  }
+  #header a {
+    position: absolute;
+    width: 48px;
+    height: 19px;
+    left: 20px;
+    top: 381px;
+    float: left;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+  #text {
+    position: absolute;
+    width: 1321px;
+    height: 327px;
+    left: 49px;
+    top: 506px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  
+    color: #000000;
+  }
+  

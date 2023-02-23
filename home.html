@@ -5,32 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lab2</title>
-    <style>
-      
-        .rows{
-          justify-content:space-between;
-          display:flex;
-          flex-wrap: wrap;
-          margin:10px;
-        }
-        h3{
-          text-justify: auto;
-          display:flex;
-        }
-      
-      
-    </style>
   </head>
   <body>
     <div id="Header">
-      <img src="Images/Nepal_header.jpg"  />
-      <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="aboutus.html">About us</a></li>
-      </ul>
+      <img src="Images/Nepal_header.jpg" class="header" />  
     </div>
-    <div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="aboutus.html">About us</a>
+    </nav>
+    <div id="text">
       <p>
         Welcome to the mesmerizing world of Nepal! Our Nepali tourism website is
         your ultimate guide to exploring the hidden treasures of this beautiful
@@ -57,38 +42,53 @@
       </p>
     </div>
 <div>
-    <img src="Images/g10.jpg" alt="" style="height:450px; width:500px">
-    <img src="Images/back.jpg" alt="" style="height:450px; width:500px">
+    <img src="Images/g10.jpg" alt="">
+    <img src="Images/back.jpg" alt="">
 </div>
 <div class="rows">
-  <div>
     <img src="Images/expidition.jpg" alt="" style="Height:350px; width:300px;">
     <h3>Expedition</h3>
-  </div>
-  <div>
     <img src="Images/Sight seeing.webp" alt="" style="Height:350px; width:300px;">
     <h3>Exploration</h3>
-    </div>
-    <div>
     <img src="Images/trekking.jpg" alt="" style="Height:350px; width:300px;">
     <h3>Trekking</h3>
-    </div>
-    <div>
     <img src="Images/cultural.jpg" alt="" style="Height:350px; width:300px;">
     <h3>Expedition</h3>
-    </div>
-    <div>
     <img src="Images/Adventure-Activities-in-Nepal.jpg" alt="" style="Height:350px; width:300px;">
     <h3>Adventure-sports</h3>
-    </div>
-    <div>
     <img src="Images/luxury.webp" alt="" style="Height:350px; width:300px;">
     <h3>Luxury</h3>
-    </div>
 </div>
-<div>
-    <h1>Popular Activities</h1>
+
+<div id="Table">
+  <h3>Data of tourists and Weather according to weather in Nepal</h3>
+<table>
+  <tr>
+    <th></th>
+    <th>Dec - Feb</th>
+    <th>Mar - May</th>
+    <th>JuN - Aug</th>
+    <th>Sep - Nov</th>
+  </tr>
+<tr>
+  <td>Weather</td>
+  <td>Winter</td>
+  <td>Spring</td>
+  <td>Monsoon/Summer</td>
+  <td>Moderate</td>
+</tr>
+<tr>
+  <td>Visitors</td>
+  <td>Few</td>
+  <td>Relatively More</td>
+  <td>Similar</td>
+  <td>Most</td>
+</tr>
+</table>
 </div>
+<hr>
+<br>
+
 <div id="Lower"></div>
 <img src="Images/lower.jpg" alt="">
 <h2>Our Socials</h2>
@@ -97,65 +97,5 @@
 <a href="Images/Facebook-logo.png">facebook.com/visitnepal</a>
 <a href="Images/Pinterest-logo.png">pinterest.com/visitnepal</a>
 <div>
-  <div>
-  <img src="Images/Nepal_header.jpg" alt="">
-  <ul>
-    <li><a href="home.html">Home</a></li>
-    <li><a href="gallery.html">Gallery</a></li>
-    <li><a href="aboutus.html">About us</a></li>
-  </ul>
-  </div>
-  <div>
-    <h3>Gallery</h3>
-    <div>
-    <img src="Images/g10.jpg" alt="">
-    <img src="Images/g9.jpg" alt="">
-    </div>
-    <div>
-    <img src="Images/g8.jpg" alt="">
-    </div>
-    <div>
-    <img src="Images/g1.jpg" alt="">
-    <img src="Images/g2.webp" alt="">
-    </div>
-    <div>
-    <img src="Images/g7.jpg" alt="">
-    </div>
-    <div>
-    <img src="Images/g10.jpg" alt="">
-    <img src="Images/g5.webp" alt="">
-    </div>
-    
-    <img src="Images/g6.webp" alt="">
-  </div>
-  <div id="Lower2">
-    <h2>Our Socials</h2>
-<img src="Images/lower.jpg" alt="">
-<!-- <h2>Our Socials</h2> -->
-<a href="Images/Twitter-logo.svg.webp">twitter.com/visitnepal</a>
-<a href="Images/insta.png">instagram.com/visitnepal</a>
-<a href="Images/Facebook-logo.png">facebook.com/visitnepal</a>
-<a href="Images/Pinterest-logo.png">pinterest.com/visitnepal</a>
-  </div>
-
-</div>
-<div>
-  <img src="Images/Nepal_header.jpg" alt="">
-  <ul>
-    <li><a href="home.html">Home</a></li>
-    <li><a href="gallery.html">Gallery</a></li>
-    <li><a href="aboutus.html">About us</a></li>
-  </ul>
-  <div>
-  <p>Welcome to our Nepali tourism website! We are a team of passionate travel enthusiasts who love to explore and discover the hidden gems of Nepal. Our goal is to share our knowledge and experience with travelers from all over the world, and help them create their own unforgettable adventures in this beautiful country.
-    Our team consists of local Nepalis and international travelers who have fallen in love with the rich culture, breathtaking landscapes, and warm hospitality that Nepal has to offer. We believe that travel is not just about ticking off destinations on a list, but about immersing 
-    oneself in the local culture, trying new things, and making connections with people from different walks of life.
-    We understand that planning a trip to a new country can be overwhelming, which is why we are here to help. Whether you are looking for information on the best places to visit, where to stay, or what to eat, we have got you covered. We also offer customized tour packages that cater to your interests and budget, so that you can make the most out of your time in Nepal.
-    At our Nepali tourism website, we are committed to promoting sustainable and responsible tourism. We believe that travel should not have a negative impact on the environment, local communities, or cultural heritage. Therefore, we encourage travelers to be mindful of their actions and to support businesses that prioritize sustainability and ethical practices.
-    We are excited to share our love for Nepal with you, and we hope to inspire you to embark on your own adventure in this beautiful country. 
-    Thank you for choosing our Nepali tourism website as your guide to the land of the Himalayas!</p>
-  </div>
-</div>
-
   </body>
 </html>

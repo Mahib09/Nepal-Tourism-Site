@@ -1,41 +1,229 @@
-.header {
-    position: absolute;
-    width: 1440px;
-    height: 408px;
-    left: 0px;
-    top: 0px;
-    object-fit: cover;
-    bottom: 10px;
-  }
-  #header a {
-    position: absolute;
-    width: 48px;
-    height: 19px;
-    left: 20px;
-    top: 381px;
-    float: left;
+.bg-img {
+  /* The image used */
+  background-image: url("Images/Nepal_header.jpg");
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  bottom: 4px;
+  left: 16px;
+  width: auto;
+}
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/*Background image for texts*/
+.text-back {
+  position: absolute;
+  width: 1886px;
+  height: 340px;
+  min-height: 380px;
   
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #ffffff;
-  }
-  #text {
-    position: absolute;
-    width: 1321px;
-    height: 327px;
-    left: 49px;
-    top: 506px;
   
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+
+.text-back::before{
+background-image: url("Images/istockphoto-1362239154-612x612.jpg");
+opacity: 50%;
+}
+
+/* Home texts alignment*/
+.home-text {
+  position: absolute;
+  width: 1321px;
+  height: 327px;
+
+  margin-top: 98px;
+  margin-left: 49px;
+  margin-right: 49px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.front-img1{
+  position: absolute;
+width: 630px;
+height: 345px;
+left: 53px;
+top: 964px;
+
+background: url("Images/g10.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.front-img2{
+position: absolute;
+width: 615px;
+height: 345px;
+left: 735px;
+top: 964px;
+
+background: url("Images/back.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.head-img-txt h3{
+  /* Popular Activities */
+position: relative;
+width: 277px;
+height: 39px;
+left: 20px;
+top: 1568px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+color: #1B1C1E;
+}
+
+.img1{
+/* expidition 1 */
+position: absolute;
+width: 306px;
+height: 425px;
+left: 41px;
+top: 1419px;
+
+background: url("Images/expidition.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.img2{
+  /* Sight seeing 1 */
+position: absolute;
+width: 477px;
+height: 425px;
+left: 470px;
+top: 1419px;
+
+background: url("Images/Sight\ seeing.webp");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.img3{
+  /* trekking 1 */
+position: absolute;
+width: 321px;
+height: 425px;
+left: 1070px;
+top: 1419px;
+
+background: url("Images/trekking.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.img4{
+  /* cultural 1 */
+position: absolute;
+width: 306px;
+height: 480px;
+left: 41px;
+top: 1941px;
+
+background: url("Images/cultural.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.img5{
+  /* Adventure-Activities-in-Nepal 1 */
+position: absolute;
+width: 477px;
+height: 480px;
+left: 470px;
+top: 1941px;
+
+background: url("Images/Adventure-Activities-in-Nepal.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
   
-    color: #000000;
-  }
+}
+.img6{
+  /* luxury 1 */
+position: absolute;
+width: 321px;
+height: 480px;
+left: 1070px;
+top: 1941px;
+
+background: url("Images/luxury.webp");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.Table{
+  position:absolute;
+  left: 41px;
+  top: 2470px;
+
+}
+.lower-nav{
+/* lower 1 */
+background-image: url("Images/lower.jpg");
+position: relative;
+left: 0px;
+top: 2250px;
+width: 100%;
+height: 215px;
+min-height: 200px;
+object-fit: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.lower-nav h2{
+  color: #f2f2f2;
+  left: 20px;
   
+
+}
+.lower-nav ul li{
+  list-style-type: none;
+  
+}
+.lower-nav ul li a{
+  color: white;
+  padding-top: 10px;
+  margin-top: 10px;
+}

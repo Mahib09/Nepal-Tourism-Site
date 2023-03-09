@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Lab2</title>
   </head>
   <body>
-    <div>
-      <img src="Images/Nepal_header.jpg" alt="" />
-      <a href="home.html">Home</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="aboutus.html">About us</a>
-    </div>
+    <header>
+      <div class="bg-img">
+        <div class="container">
+          <div class="topnav" style="width: 100%;">
+            <a href="home.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="aboutus.html">About us</a>
+          </div>
+        </div>
+      </div>
+    </header>
     <h6 style="font-size: large">About Us</h6>
     <p>
       Welcome to our Nepali tourism website! We are a team of passionate travel
@@ -52,12 +60,19 @@
     <input type="text" alt="Message" id="Message" />
     <input type="submit" alt="button" id="submit" />
   </form>
-  <div id="Lower"></div>
-  <img src="Images/lower.jpg" alt="">
-  <h2>Our Socials</h2>
-  <a href="Images/Twitter-logo.svg.webp">twitter.com/visitnepal</a>
-  <a href="Images/insta.png">instagram.com/visitnepal</a>
-  <a href="Images/Facebook-logo.png">facebook.com/visitnepal</a>
-  <a href="Images/Pinterest-logo.png">pinterest.com/visitnepal</a>
-  <div>
+  <lower>
+    <div id="lower-bg">
+      <div class="lower-nav">
+        <div class="img">
+          <h2>Our Socials</h2>
+          <ul>
+            <li><a href="Images/Twitter-logo.svg.webp"><ion-icon name="logo-twitter"></ion-icon>twitter.com/visitnepal</a></li>
+            <li><a href="Images/insta.png"><ion-icon name="logo-instagram"></ion-icon>instagram.com/visitnepal</a></li>
+            <li><a href="Images/Facebook-logo.png"><ion-icon name="logo-facebook"></ion-icon>facebook.com/visitnepal</a></li>
+            <li><a href="Images/Pinterest-logo.png"><ion-icon name="logo-pinterest"></ion-icon>pinterest.com/visitnepal</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </lower>
 </html>

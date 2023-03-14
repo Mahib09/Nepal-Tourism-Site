@@ -1,3 +1,7 @@
+@media print {
+  footer {page-break-after: always;}
+}
+
 html {
   min-height: 100%;
   width: 100%;
@@ -247,22 +251,99 @@ background-size: cover;
 .img a:hover{
   color: royalblue;
 }
+
+.image1 img{
+  background-image: url("Images/g10.jpg");
+position:relative;
+height: 350px;
+width: 600px;
+}
+.image2 img{
+  background-image: url("Images/g9.jpg");
+position:relative;
+height:350px;
+width:615px;
+bottom:355px;
+left: 620px;
+}
+.image3 img{
+background-image: url("Images/g8.jpg");
+position:relative;
+height: 350px;
+width: 600px;
+bottom:350px;
+}
+.image4 img {
+  background-image: url("Images/g1.jpg");
+position:relative;
+height: 350px;
+width: 600px;
+bottom:705px;
+left:615px;
+}
+.image5 img {
+  background-image: url("Images/g2.webp");
+  position:relative;
+  width:100%;
+  bottom:700px;
+ 
+}
+.image6 img {
+  background-image: url("Images/g7.jpg");
+  position:relative;
+height: 350px;
+width: 600px;
+bottom:695px;
+}
+.image7 img {
+  background-image: url("Images/g5.webp");
+  position:relative;
+  height: 350px;
+  width: 575px;
+  bottom:1050px;
+  left:615px;
+
+  }
+  .image8 img {
+    background-image:url("Images/g6.webp");
+    position:relative;
+    width:100%;
+    bottom:1050px;
+   
+  }
+  .lower-nav-gal h2{
+    color:#f2f2f2;
+    margin-left: 40px;
+  }
+  .lower-nav-gal ul li{
+    list-style:none;
+    margin-top:20px;
+  }
+  .lower-nav-gal {
+   background-image: url("Images/lower.png");
+  position: relative;
+  left: 0px;
+  bottom:1050px;
+  height: 215px;
+  min-height: 200px;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
 /*aboutus texts alignment*/
-.aboutus-text{
+.aboutus-text p{
+  position: absolute;
+  left: 24px;
   width: 1221px;
   height: 327px;
-
-  margin-top:0px;
-  left: 62px;
-  margin-right: 49px;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
-
   color: #000000;
 }
 

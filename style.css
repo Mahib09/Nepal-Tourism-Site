@@ -2,12 +2,6 @@
   footer {page-break-after: always;}
 }
 
-html {
-  min-height: 100%;
-  width: 100%;
-  overflow-x: hidden;
-}
-
 .bg-img {
   /* The image used */
   background-image: url("Images/Nepal_header.jpg");

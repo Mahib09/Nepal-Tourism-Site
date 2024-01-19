@@ -1,112 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <title>Lab2</title>
-  </head>
-  <body>
-    <header>
-      <div class="bg-img">
-        <div class="container">
-          <div class="topnav" style="width: 100%;">
-            <a href="home.html">Home</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="aboutus.html">About us</a>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>About us| Nepal Tourism</title>
+</head>
+<body>
+    <nav>
+        <input id="nav-toggle" type="checkbox">
+        <div class="logo">Nepal Tour Guide</div>
+        <ul class="links">
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="aboutus.html">Contact us</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Book Now</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
+       </nav>
+      <div class="container-home">
+        <img src="Images/Nepal_header.jpg" alt="" srcset="">
+      </div>
+      <div class="aboutus">
+        <div class="content">
+          <div class="left-side">
+            <div class="address details">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="topic">Address</div>
+              <div class="text-one">Kathmandu, Baudha-09</div>
+              <div class="text-two">Nepal</div>
+            </div>
+            <div class="phone details">
+              <i class="fas fa-phone-alt"></i>
+              <div class="topic">Phone</div>
+              <div class="text-one">+009797565
+              </div>
+              <div class="text-two">+005465446</div>
+            </div>
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">Email</div>
+              <div class="text-one">yourguide@gmail.com</div>
+              <div class="text-two">info.nepaltour.gmail.com</div>
+            </div>
           </div>
+          <div class="right-side">
+            <div class="topic-text">Send us a message</div>
+            <p></p>
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Enter your email">
+            </div>
+            <div class="input-box message-box">
+                <input type="text" placeholder="Your Message">
+            </div>
+            <div class="button">
+              <input type="button" value="Send Now" >
+            </div>
+          </form>
+        </div>
         </div>
       </div>
-    </header>
-    <h1 style="font-size: 200"><b>About Us</b></h1>
-    <div class="aboutus-text">  
-    <p>
-      Welcome to our Nepali tourism website! We are a team of passionate travel
-      enthusiasts who love to explore and discover the hidden gems of Nepal. Our
-      goal is to share our knowledge and experience with travelers from all over
-      the world, and help them create their own unforgettable adventures in this
-      beautiful country.
-      <br/>
-       Our team consists of local Nepalis and international
-      travelers who have fallen in love with the rich culture, breathtaking
-      landscapes, and warm hospitality that Nepal has to offer. We believe that
-      travel is not just about ticking off destinations on a list, but about
-      immersing oneself in the local culture, trying new things, and making
-      connections with people from different walks of life.
-      <br/>
-       We understand that
-      planning a trip to a new country can be overwhelming, which is why we are
-      here to help. Whether you are looking for information on the best places
-      to visit, where to stay, or what to eat, we have got you covered. We also
-      offer customized tour packages that cater to your interests and budget, so
-      that you can make the most out of your time in Nepal. At our Nepali
-      tourism website, we are committed to promoting sustainable and responsible
-      tourism. We believe that travel should not have a negative impact on the
-      environment, local communities, or cultural heritage. Therefore, we
-      encourage travelers to be mindful of their actions and to support
-      businesses that prioritize sustainability and ethical practices. We are
-      excited to share our love for Nepal with you, and we hope to inspire you
-      to embark on your own adventure in this beautiful country.
-      <br/>
-      Thank you for
-      choosing our Nepali tourism website as your guide to the land of the
-      Himalayas!
-    </p>
-    </div>
-    
-  </body>
-  
-  <div class="form">
-    <div class="writeas">Write us a mail:</div>
-      
-  <form>
-    <div class="email"><textarea style="width: 662px;
-      height: 47px;
-      left: 545px;
-      top: 1123px;
-      
-      background: #D9D9D9;" placeholder="Your Email Address" type="email" alt="Your Email Address" id="emil"></textarea></div>
-    <div class="feedbacks"><textarea style="
-      width: 231px;
-      height: 48px;
-      left: 299px;
-      top: 1161px;
-      
-      background: #D9D9D9" placeholder="Your Feedbacks and Querries" type="text"></textarea></div>
-    <div class="message"><textarea style="
-      width: 661px;
-      height: 182px;
-      left: 546px;
-      top: 1195px;
-      
-      background: #D9D9D9" placeholder="Message" type="text" alt="Message" id="Message"></textarea></div> 
-    <div class="submit"><input style="
-width: 165px;
-height: 44px;
-left: 1077px;
-top: 1424px;
-
-background: #D9D9D9;" type="submit" alt="button" id="submit" /></div>
-  </form>
-  
-  </div>
-</div>
-  <lower>
-    <div id="lower-bg">
-      <div class="lower-nav">
-        <div class="img">
-          <h2>Our Socials</h2>
-          <ul>
-            <li><a href="Images/Twitter-logo.svg.webp"><ion-icon name="logo-twitter"></ion-icon>twitter.com/visitnepal</a></li>
-            <li><a href="Images/insta.png"><ion-icon name="logo-instagram"></ion-icon>instagram.com/visitnepal</a></li>
-            <li><a href="Images/Facebook-logo.png"><ion-icon name="logo-facebook"></ion-icon>facebook.com/visitnepal</a></li>
-            <li><a href="Images/Pinterest-logo.png"><ion-icon name="logo-pinterest"></ion-icon>pinterest.com/visitnepal</a></li>
-          </ul>
+      <footer class="footer">
+        <div class="footer-container">
+            <div class="row-foot">
+                <div class="col-foot">
+                    <h4>Our Socials</h4>
+                    <ul>
+                        <li><a href="Images/Twitter-logo.svg.webp"><ion-icon name="logo-twitter"></ion-icon>twitter.com/visitnepal</a></li>
+                        <li><a href="Images/insta.png"><ion-icon name="logo-instagram"></ion-icon>instagram.com/visitnepal</a></li>
+                        <li><a href="Images/Facebook-logo.png"><ion-icon name="logo-facebook"></ion-icon>facebook.com/visitnepal</a></li>
+                        <li><a href="Images/Pinterest-logo.png"><ion-icon name="logo-pinterest"></ion-icon>pinterest.com/visitnepal</a></li>
+                    </ul>
+                    <a href="" class="more-btn">Contact</a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </lower>
+    </footer>
+</body>
 </html>
